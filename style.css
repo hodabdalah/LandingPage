@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    
+}
+h4{
+    padding: 10px 0;
+}
+img{
+    max-width: 100%;
+}
+button{
+    cursor: pointer;
+}
+section{
+    padding: 20px 0;
+}
+.container{
+    max-width: 1360px;
+    padding: 20px;
+    margin: 0 auto;
+}
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header img{
+    width: 75px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    padding-right: 10px;
+}
+nav ul li button{
+    padding:3px 5px;
+}
+.hero_section,.recommendations{
+    text-align: center;
+}
+.hero_section p {
+
+    padding: 10px 0;
+}
+
+.cta_btn{
+padding: 5px 15px;
+}
+.info_section_container{
+display: flex;
+gap: 15px;
+max-width: 800px;
+margin: 0 auto;
+}
+.info_text_container p{
+margin-top: 20px;
+}
+.info_section_container img{
+    width:200px;
+}
+.recommendation_container{
+    display: flex;
+
+    justify-content: center;
+    gap: 10px;
+}
+.recommendation{
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 10px;
+    max-width: 150px;
+}
+.recommendation img{
+width: 200px;
+}
+.cta_section{
+    text-align: center;
+}
+.cta_section p{
+    padding: 10px 0;
+}
+footer{
+
+}
+.footer_container{
+      display: flex;
+    gap: 25px;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.footer_container img{
+    width: 150px;
+}
